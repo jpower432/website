@@ -28,6 +28,9 @@ plugins:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - Makefile
+  - generated/
+  - .gemara-spec/
   - node_modules
   - vendor/bundle/
   - vendor/cache/
