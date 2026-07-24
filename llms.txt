@@ -6,6 +6,8 @@ Gemara delivers three components: the Model (seven-layer conceptual framework), 
 
 The model is organized into Definition layers (1–3) and Measurement layers (5–7), with Layer 4 as the pivot point representing Sensitive Activities.
 
+The full content version is at [llms-full.txt](https://gemara.openssf.org/llms-full.txt).
+
 ## The Model
 
 - [Scope](https://gemara.openssf.org/model/01-scope): Purpose and scope of the Gemara model
@@ -33,6 +35,10 @@ The model is organized into Definition layers (1–3) and Measurement layers (5�
 - [Evaluation Log schema](https://gemara.openssf.org/schema/evaluationlog): Layer 5
 - [Enforcement Log schema](https://gemara.openssf.org/schema/enforcementlog): Layer 6
 - [Audit Log schema](https://gemara.openssf.org/schema/auditlog): Layer 7
+- [Mapping Document schema](https://gemara.openssf.org/schema/mappingdocument): Cross-layer artifact mappings between frameworks
+- [Lexicon schema](https://gemara.openssf.org/schema/lexicon): Controlled vocabulary for Gemara terms
+- [Aliases & Base Types](https://gemara.openssf.org/schema/base): Shared type definitions used across schemas
+- [Mapping Primitives](https://gemara.openssf.org/schema/mapping-inline): Inline mapping structures for cross-referencing
 - [CUE Central Registry](https://registry.cue.works/docs/github.com/gemaraproj/gemara@latest): Browse all schemas
 
 ## SDK
