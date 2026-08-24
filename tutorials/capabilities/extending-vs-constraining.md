@@ -57,7 +57,7 @@ So an extension is not a fork of Gemara. It is Gemara plus typed, validated, dom
 
 ## The Intended Path
 
-Gemara extensions do not yet have: a **dedicated extension point** the core is aware of or tooling support. Gemara does not support a property bag solution because they are difficult to discover, verify and create subtle fragmentation.
+Gemara extensions do not yet have: a **dedicated extension point** the core is aware of or tooling support. Gemara does not support a property bag solution because they lack discoverability, are difficult to verify, and create subtle fragmentation.
 
 In Gemara today, the base type does not know that a given document is a maintained extension of it. It only sees a superset it happens to be able to read. This is intentional, for now. The plan is to let the community pattern prove itself before formalizing it:
 
