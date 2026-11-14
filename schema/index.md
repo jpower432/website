@@ -158,7 +158,7 @@ The core specification release versions the CUE schemas as a single unit.
 
 ### Schema Lifecycle and Major Version Example
 
-Possible schema states include: **Experimental** → **Stable** → **Deprecated**. These are denoted on each schema file with a `@status(experimental|stable|deprecated)` attribute.
+Possible schema states include: **Experimental** → **Stable** → **Deprecated**. Each schema file declares its state with a file-level attribute, such as `@gemara(status="stable")`.
 
 The following table illustrates how schemas progress through their lifecycle and how major version changes are handled:
 
